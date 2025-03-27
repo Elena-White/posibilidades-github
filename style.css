@@ -1,0 +1,39 @@
+*{
+	padding: 0; /*relleno*/
+	margin: 0; /*margen*/
+}
+h1{
+	text-align: center; /*posición texto del título/header*/
+	background-color: black; /*color principal del fondo del texto título/header*/
+	color: white; /*color del resto*/
+	padding: 20px; /*relleno*/
+}
+nav ul {
+	background-color: #F699CD; /*color de fondo de los links y botones debajo del título/header. Es rosa*/
+	width: 100%; /*ancho*/
+	list-style-type: none; /*estilo*/
+	text-align: center; /*posición del texto*/
+}
+nav li {
+	display: inline-flex; /*posición del texto con su fondo en una linea única*/
+	}
+nav a {
+	text-decoration: none; /*decoración del texto, ninguna en este caso*/
+	color: #33105D; /*color del texto: sería el color de cadab "botón". Es morado*/
+	padding: 10px; /*relleno*/
+	width: 150px; /*ancho*/
+	font-weight: bold;
+}
+nav li:hover { /*pasar el ratón por (encima)*/
+	background-color: orange; /*color que aparece en cada "botón" con su texto cada vez que se pasa con el ratón
+								por encima*/
+}
+img { /*editar las propiedades de la imagen que hemos puesto en index.html*/
+	width: 900px; /*ancho*/
+	height: 500px; /*alto*/
+	}
+
+	
+	
+	
+	
